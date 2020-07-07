@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import Messaging8149Navigator from '../features/Messaging8149/navigator';
-import EmailAuth8148Navigator from '../features/EmailAuth8148/navigator';
 import CalendarNavigator from '../features/Calendar/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
@@ -25,7 +24,6 @@ const AppNavigator = {
     },
     //@BlueprintNavigationInsertion
 Messaging8149: { screen: Messaging8149Navigator },
-EmailAuth8148: { screen: EmailAuth8148Navigator },
 Calendar: { screen: CalendarNavigator },
 Messenger: { screen: MessengerNavigator },
 EmailAuth: { screen: EmailAuthNavigator },
