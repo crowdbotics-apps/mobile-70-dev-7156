@@ -133,6 +133,37 @@ export class _Blank extends React.Component {
         value={this.state.Input_5}
         onChangeText={nextValue => this.setState({ Input_5: nextValue })}
       />
+      <Text
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          fontFamily: "System",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
+      >
+        Sample text content
+      </Text>
       <Input
         placeholder="Sample text input placeholder"
         editable={true}
@@ -230,37 +261,6 @@ export class _Blank extends React.Component {
         checked={this.state.Toggle_15}
         onChange={nextChecked => this.setState({ Toggle_15: nextChecked })}
       />
-      <Text
-        style={{
-          marginLeft: 0,
-          marginRight: 0,
-          marginTop: 5,
-          marginBottom: 5,
-          paddingLeft: 5,
-          paddingRight: 5,
-          paddingTop: 5,
-          paddingBottom: 5,
-          overflow: "visible",
-          textAlign: "left",
-          verticalAlign: "baseline",
-          fontSize: 20,
-          color: "#000000",
-          backgroundColor: "#ffffff",
-          fontStyle: "normal",
-          fontWeight: "normal",
-          fontFamily: "System",
-          borderColor: "#000000",
-          borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
-          borderRadius: 0
-        }}
-      >
-        Sample text content
-      </Text>
       <Slider
         value={50}
         minimumValue={0}
