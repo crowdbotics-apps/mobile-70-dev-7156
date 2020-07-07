@@ -12,7 +12,6 @@ import CalendarNavigator from '../features/Calendar/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
 import BlankScreen58142Navigator from '../features/BlankScreen58142/navigator';
-import BlankScreen48141Navigator from '../features/BlankScreen48141/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
 import CalendarNavigator from '../features/Calendar/navigator';
 import EmailAuthNavigator from '../features/EmailAuth/navigator';
@@ -33,7 +32,6 @@ Calendar: { screen: CalendarNavigator },
 Messenger: { screen: MessengerNavigator },
 EmailAuth: { screen: EmailAuthNavigator },
 BlankScreen58142: { screen: BlankScreen58142Navigator },
-BlankScreen48141: { screen: BlankScreen48141Navigator },
 Messenger: { screen: MessengerNavigator },
 Calendar: { screen: CalendarNavigator },
 EmailAuth: { screen: EmailAuthNavigator },
